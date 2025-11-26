@@ -1,0 +1,18 @@
+#[package]
+#name = "rkv-cloud"
+#version = "0.1.0"
+#edition = "2024"
+#
+#[dependencies]
+#
+[workspace]
+members = [
+    "kv-types",
+    "kvctl",
+    "kv-storage",
+    "kv-server",
+    "kv-router",
+    "kv-raft",
+    "kv-net",
+]
+resolver = "3"
