@@ -14,5 +14,6 @@ members = [
     "kv-router",
     "kv-raft",
     "kv-net",
+    "kv_hello",
 ]
 resolver = "3"

@@ -1,7 +1,6 @@
 [package]
-name = "kvctl"
+name = "kv_hello"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-kv-storage = { path = "../kv-storage" }

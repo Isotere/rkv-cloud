@@ -27,5 +27,12 @@ name = "kv-types"
 version = "0.1.0"
 
 [[package]]
+name = "kv_hello"
+version = "0.1.0"
+
+[[package]]
 name = "kvctl"
 version = "0.1.0"
+dependencies = [
+ "kv-storage",
+]
